@@ -1,11 +1,11 @@
 {
-  "name": "team_project",
+  "name": "nine_cups",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/team_project/",
+    "build": "vite build --base=/nine_cups/",
     "preview": "vite preview"
   },
   "devDependencies": {

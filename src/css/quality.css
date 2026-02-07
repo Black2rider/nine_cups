@@ -1,0 +1,38 @@
+.quality {
+    text-align: center;
+}
+
+.quality-tagline {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.quality-header {
+    font-family: var(--second-family);
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    margin-bottom: 24px;
+}
+
+.quality-paragraph {
+    margin-bottom: 32px;
+}
+
+.quality-img {
+    border-radius: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+}
+
+.quality-list-header {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.quality-list-paragraph:not(:last-child) {
+    margin-bottom: 24px;
+}

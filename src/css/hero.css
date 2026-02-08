@@ -66,6 +66,11 @@
   opacity: 0.5;
 }
 
+.hero-link:active {
+  opacity: 1;
+  box-shadow: none;
+}
+
 @media screen and (min-width: 768px) {
   .hero {
     max-width: 768px;

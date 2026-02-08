@@ -1,10 +1,10 @@
-.contact {
+.container {
   padding: 64px 16px;
   background-color: #e0cbb4;
 }
 .contact-info {
   max-width: 100%;
-  margin: 0 ;
+  margin: 0;
   text-align: left;
 }
 .find-us {
@@ -76,15 +76,11 @@
 /* змінити колір */
 .contact-link:hover,
 .contact-link-directions:hover {
-  color: #0b0803;
+  color: rgba(11, 8, 3, 0.7);
 }
 .contact-link:active,
 .contact-link-directions:active {
-  color: #0b0803;
-}
-.contact-link:focus,
-.contact-link-directions:focus {
-  color: #0b0803;
+  color: rgba(11, 8, 3, 0.5);
 }
 
 .contact-link-directions {
@@ -108,7 +104,7 @@
   border-radius: 40px;
 }
 @media screen and (min-width: 768px) {
-  .contact {
+  .container {
     padding: 64px 32px;
   }
   .contact-info {
@@ -137,18 +133,17 @@
     max-width: 704px;
     height: 377px;
     border-radius: 40px;
-    margin: 0 auto;
+
     display: block;
   }
 }
 @media screen and (min-width: 1440px) {
-  .contact {
-  display: flex;
-  align-items: flex-start;
-  
-  max-width: 1440px;
-  padding: 0 64px;
-  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 64px 32px;
   }
   .contact-item-list {
     display: flex;
@@ -156,19 +151,18 @@
   }
   .contact-item {
     margin-bottom: 0;
-   
   }
 
   .contact-info {
-    max-width: 420px;
+    width: 419px;
     flex-shrink: 0;
-   
   }
 
   .contact-map {
-     flex: 1;          
-    width: 100%;     
-    height: 697px;    
+    flex: 1;
+    max-width: 869px;
+    height: 697px;
     border-radius: 40px;
+    margin-left: auto;
   }
 }

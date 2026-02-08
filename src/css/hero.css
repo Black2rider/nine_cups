@@ -18,8 +18,12 @@
   }
 }
 
-.hero-container {
+/* .hero-container {
   padding: 0 32px;
+} */
+
+.hero-content {
+  padding: 0 16px;
 }
 
 .hero-title {
@@ -77,9 +81,9 @@
     padding: 311px 0;
   }
 
-  .hero-container {
-    margin: 0;
-    width: 560px;
+  .hero-content {
+    padding: 0 0 0 16px;
+    width: 576px;
   }
 }
 
@@ -89,12 +93,7 @@
     padding: 259px 0;
   }
 
-  .hero-container {
-    padding: 0 64px;
-  }
-
   .hero-title {
-    width: 560px;
     font-size: 56px;
   }
 }

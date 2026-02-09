@@ -1,9 +1,7 @@
-.contact-head {
-}
 .contact-info {
-    max-width: 100%;
-    margin: 0;
-    text-align: left;
+   max-width: 100%;
+   margin: 0;
+   text-align: left;
 }
 
 .find-us {
@@ -48,8 +46,6 @@
   height: 32px;
   fill: var(--color-neutral-darkest);
   margin-bottom: 16px;
-}
-.icon-email {
 }
 
 .contact-text {

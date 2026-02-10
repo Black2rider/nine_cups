@@ -92,9 +92,7 @@
     .testimonials-card {
         flex: 0 0 calc((100% - 24px) / 2);
         max-width: calc((100% - 24px) / 2);
-        height: 253px;
-        width: 340px;
-        min-width: 310px;
+        min-width: 253px;
     }
 }
 /* desktop */

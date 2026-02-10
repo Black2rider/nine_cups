@@ -50,9 +50,13 @@
 }
 
 .mobile-menu-item {
-  padding-bottom: 32px;
+  margin-bottom: 32px;
   font-size: 16px;
   color: var(--font-family);
+}
+
+.mobile-menu-item:last-child {
+  margin-bottom: 0;
 }
 
 .mobile-menu-link:hover,

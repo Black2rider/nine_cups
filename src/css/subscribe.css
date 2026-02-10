@@ -146,16 +146,6 @@
   aspect-ratio: 288 / 400;
 }
 
-@media screen and (min-width: 320px) and (max-width: 375px) {
-  .subscribe-content {
-    text-align: center;
-  }
-
-  .invalid-text {
-    align-self: flex-start;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .subscr-form {
     margin-top: 32px;
